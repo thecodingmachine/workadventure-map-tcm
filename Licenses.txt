@@ -1,0 +1,7 @@
+Licenses
+--------
+
+Licenses for tilesets are available in :
+ - paris/Attribution-terrain.txt for the basic elements outdor
+ - paris/License premium.txt for the world map background
+ - paris/Attribution-tilesets.txt for the TCM custom tilesets

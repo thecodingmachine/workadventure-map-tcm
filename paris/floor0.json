@@ -281,9 +281,19 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiConfig",
+                 "type":"string",
+                 "value":"{\n  \"lastNLimits\": {\n         \"5\": 20,\n         \"30\": 15,\n         \"50\": 10,\n         \"70\": 5,\n         \"90\": 2\n     }\n}"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"tcm-amphi"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"admin"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -552,7 +562,7 @@
  "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.2",
+ "tiledversion":"1.3.3",
  "tileheight":32,
  "tilesets":[
         {
@@ -2407,6 +2417,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":1.2,
  "width":46
 }

@@ -254,7 +254,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.thecodingmachine.com\/en\/the-coding-machine-around-the-world\/"
+                 "value":"https:\/\/edgenda.com\/"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -392,7 +392,7 @@
          "name":"bottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":46,
          "x":0,
          "y":0
@@ -497,7 +497,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 

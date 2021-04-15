@@ -7,7 +7,7 @@ var currentPopup = undefined;
 var isCoWebSiteOpened =  false;
 
 WA.onEnterZone(zoneWelcomeToTCMName, () => {
-   currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to The Coding Machine !",[
+   currentPopup =  WA.openPopup("popUpWelcome","Bienvenue, venez découvrir ApprentX !",[
         {
             label: "Qui nous somme ? ",
             className: "popUpElement",
@@ -20,11 +20,11 @@ WA.onEnterZone(zoneWelcomeToTCMName, () => {
 })
 
 WA.onEnterZone(zoneRespectPeopleName, () => {
-    currentPopup =  WA.openPopup("popUpRespect","Thank you for respecting people at work :D",[])
+    currentPopup =  WA.openPopup("popUpRespect","Merci de respecter les consignes de bureau :P",[])
 })
 
 WA.onEnterZone(zoneMeetTheDevTeamName, () => {
-    currentPopup =  WA.openPopup("popUpMeetDev","Meet the WorkAdventure dev team ! ",[]);
+    currentPopup =  WA.openPopup("popUpMeetDev","Amusez-vous ! ",[]);
 })
 
 WA.onLeaveZone(zoneRespectPeopleName, closePopUp)

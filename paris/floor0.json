@@ -147,7 +147,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/watch?v=qw6SkMNE_kk&ab_channel=Apprentx"
+                 "value":"\"https:\/\/www.youtube.com\/embed\/qw6SkMNE_kk\""
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -249,7 +249,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/edgenda.com"
+                 "value":"https:\/\/edgenda.com\/"
                 }],
          "type":"tilelayer",
          "visible":true,

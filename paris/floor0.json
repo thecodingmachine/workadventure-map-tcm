@@ -30,7 +30,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/open.spotify.com\/track\/0IkKz2J93C94Ei4BvDop7P?si=5a9527f653da4490"
+                 "value":"https:\/\/open.spotify.com\/embed\/track\/0IkKz2J93C94Ei4BvDop7P"
                 }],
          "type":"tilelayer",
          "visible":true,

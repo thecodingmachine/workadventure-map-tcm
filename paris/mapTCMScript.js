@@ -36,6 +36,8 @@ WA.onLeaveZone(zoneRespectPeopleName, closePopUp)
 
 WA.onLeaveZone(zoneMeetTheDevTeamName, closePopUp)
 
+WA.onLeaveZone(popUpMusicName, closePopUp)
+
 WA.onLeaveZone(zoneWelcomeToTCMName, () =>{
     closePopUp();
 

@@ -1,11 +1,11 @@
 var zoneWelcomeToTCMName = "popUpWelcomeToTCM";
 var zoneMeetTheDevTeamName = "popUpMeetTheDevTeam";
 var zoneRespectPeopleName = "popUpRespectPeople";
-console.log("SCRIPT RUNNUNG");
+var zoneTCMAroundTheWorld = "popUpTCMAroundTheWorld";
 var urlWelcomeToTCM = "https://www.thecodingmachine.com/en/welcome-to-the-coding-machine/";
+var urlTCMAroundTheWorld = "https://www.thecodingmachine.com/en/the-coding-machine-around-the-world/";
 var currentPopup = undefined;
 var isCoWebSiteOpened =  false;
-
 WA.onEnterZone(zoneWelcomeToTCMName, () => {
    currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to The Coding Machine !",[
         {
@@ -13,6 +13,19 @@ WA.onEnterZone(zoneWelcomeToTCMName, () => {
             className: "popUpElement",
             callback: (popup => {
                 WA.openCoWebSite(urlWelcomeToTCM);
+                isCoWebSiteOpened = true;
+                closePopUp();
+            })
+        }]);
+})
+
+WA.onEnterZone(zoneTCMAroundTheWorld, () => {
+    currentPopup =  WA.openPopup("popUpTCMAroundTheWorld","The Coding Machine around the World",[
+        {
+            label: "See more ",
+            className: "popUpElement",
+            callback: (popup => {
+                WA.openCoWebSite(urlTCMAroundTheWorld);
                 isCoWebSiteOpened = true;
                 closePopUp();
             })
@@ -32,6 +45,15 @@ WA.onLeaveZone(zoneRespectPeopleName, closePopUp)
 WA.onLeaveZone(zoneMeetTheDevTeamName, closePopUp)
 
 WA.onLeaveZone(zoneWelcomeToTCMName, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+
+WA.onLeaveZone(zoneTCMAroundTheWorld, () =>{
     closePopUp();
 
     if (isCoWebSiteOpened) {

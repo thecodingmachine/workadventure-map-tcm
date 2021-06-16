@@ -11,6 +11,9 @@ jobs:
 
     steps:
 
+      - name: Paris
+        uses: cd paris/
+
       - name: Checkout
         uses: actions/checkout@v2
 

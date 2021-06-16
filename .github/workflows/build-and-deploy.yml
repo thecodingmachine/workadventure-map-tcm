@@ -11,9 +11,6 @@ jobs:
 
     steps:
 
-      - name: Paris
-        run: cd paris/
-
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -27,12 +24,15 @@ jobs:
 
       - name: "Install dependencies"
         run: npm install
+        working-directory: "paris"
 
       - name: "Build scripts"
         run: npm run build
+        working-directory: "paris"
 
       - name: "Move scripts"
         run: mv dist/* .
+        working-directory: "paris"
 
       - name: Bash
         if: github.ref == 'refs/heads/master'
@@ -42,6 +42,7 @@ jobs:
           git config --global user.name "David Négrier"
           git checkout master
           git commit -am "Adding files"
+        working-directory: "paris"
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -55,3 +56,4 @@ jobs:
       - name: Bash2
         run: |
           ls -al
+        working-directory: "paris"

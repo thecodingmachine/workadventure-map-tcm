@@ -12,7 +12,7 @@ jobs:
     steps:
 
       - name: Paris
-        uses: cd paris/
+        run: cd paris/
 
       - name: Checkout
         uses: actions/checkout@v2

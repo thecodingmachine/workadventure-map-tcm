@@ -1,20 +1,25 @@
+
 var zoneWelcomeToTCMName = "popUpWelcomeToTCM";
 var zoneMeetTheDevTeamName = "popUpMeetTheDevTeam";
 var zoneRespectPeopleName = "popUpRespectPeople";
 var zoneTCMAroundTheWorld = "popUpTCMAroundTheWorld";
+var zoneFootballName = "popupFootballZone";
+
 var urlWelcomeToTCM = "https://www.thecodingmachine.com/en/welcome-to-the-coding-machine/";
 var urlTCMAroundTheWorld = "https://www.thecodingmachine.com/en/the-coding-machine-around-the-world/";
-var currentPopup = undefined;
+
+var currentPopup : any = undefined;
 var isCoWebSiteOpened =  false;
+
 WA.onEnterZone(zoneWelcomeToTCMName, () => {
-   currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to The Coding Machine !",[
+    currentPopup =  WA.openPopup("popUpWelcome","Hey ! Welcome to The Coding Machine !",[
         {
             label: "Who are we ? ",
-            className: "popUpElement",
+            className: "normal",
             callback: (popup => {
                 WA.openCoWebSite(urlWelcomeToTCM);
                 isCoWebSiteOpened = true;
-                closePopUp();
+                closePopUp2();
             })
         }]);
 })
@@ -23,11 +28,11 @@ WA.onEnterZone(zoneTCMAroundTheWorld, () => {
     currentPopup =  WA.openPopup("popUpTCMAroundTheWorld","The Coding Machine around the World",[
         {
             label: "See more ",
-            className: "popUpElement",
+            className: "normal",
             callback: (popup => {
                 WA.openCoWebSite(urlTCMAroundTheWorld);
                 isCoWebSiteOpened = true;
-                closePopUp();
+                closePopUp2();
             })
         }]);
 })
@@ -40,12 +45,25 @@ WA.onEnterZone(zoneMeetTheDevTeamName, () => {
     currentPopup =  WA.openPopup("popUpMeetDev","Meet the WorkAdventure dev team ! ",[]);
 })
 
-WA.onLeaveZone(zoneRespectPeopleName, closePopUp)
+WA.onEnterZone(zoneFootballName, () => {
+    currentPopup = WA.openPopup("popUpFootball", "Congratulations ! You found a ball of the EURO 2021. There is two more to find in our office. If you find them, send the three codes to g.pitaud@workadventu.re. THE CODE : 3M8C6", [
+        {
+            label: "Close",
+            className: "normal",
+            callback: (popup => {
+                popup.close();
+            })
+        }]);
+})
 
-WA.onLeaveZone(zoneMeetTheDevTeamName, closePopUp)
+WA.onLeaveZone(zoneFootballName, closePopUp2)
+
+WA.onLeaveZone(zoneRespectPeopleName, closePopUp2)
+
+WA.onLeaveZone(zoneMeetTheDevTeamName, closePopUp2)
 
 WA.onLeaveZone(zoneWelcomeToTCMName, () =>{
-    closePopUp();
+    closePopUp2();
 
     if (isCoWebSiteOpened) {
         WA.closeCoWebSite();
@@ -54,7 +72,7 @@ WA.onLeaveZone(zoneWelcomeToTCMName, () =>{
 })
 
 WA.onLeaveZone(zoneTCMAroundTheWorld, () =>{
-    closePopUp();
+    closePopUp2();
 
     if (isCoWebSiteOpened) {
         WA.closeCoWebSite();
@@ -62,7 +80,7 @@ WA.onLeaveZone(zoneTCMAroundTheWorld, () =>{
     }
 })
 
-function closePopUp(){
+function closePopUp2(){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;

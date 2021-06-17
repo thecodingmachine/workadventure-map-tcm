@@ -7,6 +7,7 @@ module.exports = {
     entry: {
         floor0: './src/floor0.ts',
         floor1: './src/floor1.ts',
+        floor2: './src/floor2.ts',
     },
     devtool: 'inline-source-map',
     devServer: {

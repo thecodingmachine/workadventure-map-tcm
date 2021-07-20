@@ -2688,32 +2688,6 @@
          "tilecount":4,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":1,
-         "firstgid":3576,
-         "image":"Football.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"Football",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":1,
-         "firstgid":3577,
-         "image":"Football-16px.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"Football-16px",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":32,
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",

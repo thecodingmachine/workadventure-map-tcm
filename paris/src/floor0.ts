@@ -1,9 +1,8 @@
-
+/// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 var zoneWelcomeToTCMName = "popUpWelcomeToTCM";
 var zoneMeetTheDevTeamName = "popUpMeetTheDevTeam";
 var zoneRespectPeopleName = "popUpRespectPeople";
 var zoneTCMAroundTheWorld = "popUpTCMAroundTheWorld";
-var zoneFootballName = "popupFootballZone";
 
 var urlWelcomeToTCM = "https://www.thecodingmachine.com/en/welcome-to-the-coding-machine/";
 var urlTCMAroundTheWorld = "https://www.thecodingmachine.com/en/the-coding-machine-around-the-world/";
@@ -44,19 +43,6 @@ WA.onEnterZone(zoneRespectPeopleName, () => {
 WA.onEnterZone(zoneMeetTheDevTeamName, () => {
     currentPopup =  WA.openPopup("popUpMeetDev","Meet the WorkAdventure dev team ! ",[]);
 })
-
-WA.onEnterZone(zoneFootballName, () => {
-    currentPopup = WA.openPopup("popUpFootball", "Congratulations ! You found a ball of the EURO 2021. There is two more to find in our office. If you find them, send the three codes to g.pitaud@workadventu.re. THE CODE : 7EY24", [
-        {
-            label: "Close",
-            className: "normal",
-            callback: (popup => {
-                popup.close();
-            })
-        }]);
-})
-
-WA.onLeaveZone(zoneFootballName, closePopUp2)
 
 WA.onLeaveZone(zoneRespectPeopleName, closePopUp2)
 

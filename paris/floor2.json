@@ -309,8 +309,34 @@
  "nextlayerid":24,
  "nextobjectid":3,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"TheCodingMachine - WorkAdventure copyright"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"TheCodingMachine floor 2"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"florr2.png"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/play.workadventu.re\/@\/tcm\/workadventure\/floor2"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Floor2"
+        }],
  "renderorder":"right-down",
- "tiledversion":"2021.03.23",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -1546,6 +1572,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.5,
+ "version":"1.6",
  "width":46
 }

@@ -769,12 +769,37 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"TheCodingMachine - WorkAdventure copyright"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"TheCodingMachine floor 0"
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"florr0.png"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/play.workadventu.re\/@\/tcm\/workadventure\/floor0"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Floor0"
+        }, 
+        {
          "name":"script",
          "type":"string",
          "value":"floor0.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.7.1",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {

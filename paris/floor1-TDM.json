@@ -185,7 +185,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/"
+                 "value":"\/@\/tcm\/workadventure\/tdm-yellowhome"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -225,7 +225,7 @@
                 {
                  "name":"meetingRoomLabel",
                  "type":"string",
-                 "value":"Dire Meeting Room"
+                 "value":"Dire Room"
                 }],
          "type":"tilelayer",
          "visible":true,

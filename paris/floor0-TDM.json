@@ -570,6 +570,11 @@
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"admin"
+                }, 
+                {
+                 "name":"meetingRoomLabel",
+                 "type":"string",
+                 "value":"Amphi"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -746,7 +751,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":55,
+ "nextlayerid":56,
  "nextobjectid":8,
  "orientation":"orthogonal",
  "properties":[

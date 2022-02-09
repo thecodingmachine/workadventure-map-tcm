@@ -30,6 +30,11 @@
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"admin"
+                }, 
+                {
+                 "name":"meetingRoomLabel",
+                 "type":"string",
+                 "value":"Radiant Room"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -71,6 +76,11 @@
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"admin"
+                }, 
+                {
+                 "name":"meetingRoomLabel",
+                 "type":"string",
+                 "value":"White Room"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -99,6 +109,11 @@
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"meetingRoomLabel",
+                 "type":"string",
+                 "value":"JG's Meeting Room"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -127,6 +142,11 @@
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"meetingRoomLabel",
+                 "type":"string",
+                 "value":"Corridor East Meeting Room"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -150,6 +170,11 @@
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"admin"
+                }, 
+                {
+                 "name":"meetingRoomLabel",
+                 "type":"string",
+                 "value":"Dire Room"
                 }],
          "type":"tilelayer",
          "visible":true,

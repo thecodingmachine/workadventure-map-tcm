@@ -795,6 +795,11 @@
          "name":"script",
          "type":"string",
          "value":"..\/script.js"
+        }, 
+        {
+         "name":"tutorial",
+         "type":"bool",
+         "value":true
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

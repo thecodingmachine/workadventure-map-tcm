@@ -348,7 +348,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"florr2.png"
+         "value":"floor2.png"
         }, 
         {
          "name":"mapLink",
@@ -359,6 +359,11 @@
          "name":"mapName",
          "type":"string",
          "value":"Floor2"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
@@ -367,7 +372,7 @@
         {
          "columns":11,
          "firstgid":1,
-         "image":"tileset1.png",
+         "image":"..\/src\/assets\/tileset1.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -660,7 +665,7 @@
         {
          "columns":11,
          "firstgid":122,
-         "image":"tileset1-repositioning.png",
+         "image":"..\/src\/assets\/tileset1-repositioning.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -935,7 +940,7 @@
         {
          "columns":12,
          "firstgid":243,
-         "image":"tileset2.png",
+         "image":"..\/src\/assets\/tileset2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -1426,7 +1431,7 @@
         {
          "columns":12,
          "firstgid":363,
-         "image":"tileset2.2.png",
+         "image":"..\/src\/assets\/tileset2.2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -1458,7 +1463,7 @@
         {
          "columns":10,
          "firstgid":483,
-         "image":"tileset3.2.png",
+         "image":"..\/src\/assets\/tileset3.2.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -1589,7 +1594,7 @@
         {
          "columns":6,
          "firstgid":583,
-         "image":"WA_Special_Zones.png",
+         "image":"..\/src\/assets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,

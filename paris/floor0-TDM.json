@@ -793,7 +793,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"florr0-TDM.png"
+         "value":"floor0-TDM.png"
         }, 
         {
          "name":"mapLink",
@@ -817,7 +817,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"walls2.png",
+         "image":"..\/src\/assets\/walls2.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1182,7 +1182,7 @@
         {
          "columns":2,
          "firstgid":257,
-         "image":"logotcm.png",
+         "image":"..\/src\/assets\/logotcm.png",
          "imageheight":32,
          "imagewidth":64,
          "margin":0,
@@ -1195,7 +1195,7 @@
         {
          "columns":11,
          "firstgid":259,
-         "image":"tileset1.png",
+         "image":"..\/src\/assets\/tileset1.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -1533,7 +1533,7 @@
         {
          "columns":11,
          "firstgid":380,
-         "image":"tileset1-repositioning.png",
+         "image":"..\/src\/assets\/tileset1-repositioning.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -1871,7 +1871,7 @@
         {
          "columns":12,
          "firstgid":501,
-         "image":"tileset2.png",
+         "image":"..\/src\/assets\/tileset2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -2371,7 +2371,7 @@
         {
          "columns":10,
          "firstgid":621,
-         "image":"tileset3.2.png",
+         "image":"..\/src\/assets\/tileset3.2.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -2583,7 +2583,7 @@
         {
          "columns":21,
          "firstgid":721,
-         "image":"terrain.png",
+         "image":"..\/src\/assets\/terrain.png",
          "imageheight":736,
          "imagewidth":672,
          "margin":0,
@@ -2596,7 +2596,7 @@
         {
          "columns":46,
          "firstgid":1204,
-         "image":"map.png",
+         "image":"..\/src\/assets\/map.png",
          "imageheight":800,
          "imagewidth":1472,
          "margin":0,
@@ -2609,7 +2609,7 @@
         {
          "columns":2,
          "firstgid":2354,
-         "image":"pin.png",
+         "image":"..\/src\/assets\/pin.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -2622,7 +2622,7 @@
         {
          "columns":1,
          "firstgid":2358,
-         "image":"le-coq.png",
+         "image":"..\/src\/assets\/le-coq.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
@@ -2635,7 +2635,7 @@
         {
          "columns":12,
          "firstgid":2360,
-         "image":"tileset2.2.png",
+         "image":"..\/src\/assets\/tileset2.2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -2667,7 +2667,7 @@
         {
          "columns":5,
          "firstgid":2480,
-         "image":"ALL.png",
+         "image":"..\/src\/assets\/ALL.png",
          "imageheight":128,
          "imagewidth":160,
          "margin":0,
@@ -2690,7 +2690,7 @@
         {
          "columns":8,
          "firstgid":2500,
-         "image":"fantasy.png",
+         "image":"..\/src\/assets\/fantasy.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -2703,7 +2703,7 @@
         {
          "columns":1,
          "firstgid":3564,
-         "image":"logo-WA.png",
+         "image":"..\/src\/assets\/logo-WA.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
@@ -2716,7 +2716,7 @@
         {
          "columns":4,
          "firstgid":3566,
-         "image":"logo-funlearn.png",
+         "image":"..\/src\/assets\/logo-funlearn.png",
          "imageheight":32,
          "imagewidth":128,
          "margin":0,
@@ -2729,7 +2729,7 @@
         {
          "columns":6,
          "firstgid":3570,
-         "image":"assets-TDM\/logo-TDM@192x192.png",
+         "image":"..\/src\/assets\/TDM\/logo-TDM@192x192.png",
          "imageheight":192,
          "imagewidth":192,
          "margin":0,
@@ -2742,7 +2742,7 @@
         {
          "columns":5,
          "firstgid":3606,
-         "image":"assets-TDM\/fanion-blue.png",
+         "image":"..\/src\/assets\/TDM\/fanion-blue.png",
          "imageheight":64,
          "imagewidth":160,
          "margin":0,
@@ -2755,7 +2755,7 @@
         {
          "columns":5,
          "firstgid":3616,
-         "image":"assets-TDM\/fanion-yellow.png",
+         "image":"..\/src\/assets\/TDM\/fanion-yellow.png",
          "imageheight":64,
          "imagewidth":160,
          "margin":0,
@@ -2768,7 +2768,7 @@
         {
          "columns":5,
          "firstgid":3626,
-         "image":"assets-TDM\/fanion-red.png",
+         "image":"..\/src\/assets\/TDM\/fanion-red.png",
          "imageheight":64,
          "imagewidth":160,
          "margin":0,
@@ -2781,7 +2781,7 @@
         {
          "columns":5,
          "firstgid":3636,
-         "image":"assets-TDM\/fanion-mauve.png",
+         "image":"..\/src\/assets\/TDM\/fanion-mauve.png",
          "imageheight":64,
          "imagewidth":160,
          "margin":0,
@@ -2794,7 +2794,7 @@
         {
          "columns":3,
          "firstgid":3646,
-         "image":"assets-TDM\/logo-TDM@96x64.png",
+         "image":"..\/src\/assets\/TDM\/logo-TDM@96x64.png",
          "imageheight":64,
          "imagewidth":96,
          "margin":0,
@@ -2807,7 +2807,7 @@
         {
          "columns":10,
          "firstgid":3652,
-         "image":"assets-TDM\/tileset3.2-red.png",
+         "image":"..\/src\/assets\/TDM\/tileset3.2-red.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -2839,7 +2839,7 @@
         {
          "columns":10,
          "firstgid":3752,
-         "image":"assets-TDM\/tileset3.2-blue.png",
+         "image":"..\/src\/assets\/TDM\/tileset3.2-blue.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,

@@ -4,16 +4,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: {
-        floor0: './src/floor0.ts',
-    },
+    entry: './src/index.ts',
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: '.',
+        static: ['.'],
         //host: '0.0.0.0',
         host: 'localhost',
         //sockPort: 80,
-        disableHostCheck: true,
+        allowedHosts: "all",
         headers: {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
@@ -33,7 +31,7 @@ module.exports = {
         extensions: [ '.tsx', '.ts', '.js' ],
     },
     output: {
-        filename: '[name].js',
+        filename: 'script.js',
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/'
     },

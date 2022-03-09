@@ -57,7 +57,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"WhiteRoom"
+                 "value":"WhiteRoom2"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -85,7 +85,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Radiant"
+                 "value":"Radiant2"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -113,7 +113,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"CorridorMeetingZone"
+                 "value":"CorridorMeetingZone2"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -146,7 +146,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Dire"
+                 "value":"Dire2"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -371,7 +371,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -1621,6 +1621,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.6",
+ "version":"1.8",
  "width":46
 }
